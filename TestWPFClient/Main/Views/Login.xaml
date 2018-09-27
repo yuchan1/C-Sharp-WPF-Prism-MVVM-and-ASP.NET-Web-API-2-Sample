@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Main.Views.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:local="clr-namespace:Main"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid DockPanel.Dock="Top" Margin="20">
+        <Border Style="{StaticResource BasicBorder}" Width="350" Height="160">
+            <StackPanel Margin="20">
+                <StackPanel FocusManager.FocusedElement="{Binding ElementName=UserID}" Orientation="Horizontal" HorizontalAlignment="Center" Height="30">
+                    <TextBlock Width="70">UserID</TextBlock>
+                    <TextBox x:Name="UserID" Text="{Binding UserID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="30">
+                    <TextBlock Width="70">Password</TextBlock>
+                    <TextBox x:Name="Password" Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0, 0, 45, 0">
+                    <Button Command="{Binding LoginCommand}" Content="Login" Style="{StaticResource BasicButton}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10, 10, 0, 0">
+                    <TextBlock Text="{Binding ErrorMessage}" Style="{StaticResource ErrorMessage}" />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

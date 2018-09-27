@@ -1,0 +1,24 @@
+﻿EntityFrameworkMemo
+
+1. Get-Help EntityFramework
+
+PM > Get-Help EntityFramework
+
+
+2. Enable-Migrations or Enable-Migrations -Force
+
+PM > Enable-Migrations			 
+
+or
+
+PM > Enable-Migrations -Force
+
+
+3. Add-Migration Initial
+
+PM > Add-Migration Initial
+
+
+4. Update-database
+
+PM > Update-Database
