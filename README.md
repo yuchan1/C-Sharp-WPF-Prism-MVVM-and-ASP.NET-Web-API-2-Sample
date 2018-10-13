@@ -51,6 +51,7 @@ Visual Studio Express 2012(C#5.0)で実行可能です。<br />
 ・PropertyChange(画面へ反映)<br />
 ・ViewDiscovery(起動時にログイン画面を表示)<br />
 ・BootStrapper<br />
+https://github.com/PrismLibrary/Prism-Samples-Wpf
 ※サンプルプログラムにはカスタムダイアログ(モーダルウィンドウ)を省略してます。別途追加予定。<br />
 <br />
 サンプルソースのWPFアプリケーションで使用しているPrism Wpfにより、<br />
