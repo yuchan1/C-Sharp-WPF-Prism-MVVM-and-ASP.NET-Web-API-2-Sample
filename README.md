@@ -56,8 +56,8 @@ Visual Studio Express 2012(C#5.0)で実行可能です。<br />
 サンプルソースのWPFアプリケーションで使用しているPrism Wpfにより、<br />
 Prismを利用したことがない人でも、基本的な利用を始めやすいと思います。<br />
 <br />
-[Prism Wpf公式サンプル(英語)](https://github.com/PrismLibrary/Prism-Samples-Wpf)<br />
-[Prism Wpf公式サンプル日本語説明](https://qiita.com/yuchan01/items/7b43a4cef5a91cf7a476)<br />
+Prism Wpf公式サンプル(英語)　https://github.com/PrismLibrary/Prism-Samples-Wpf<br />
+Prism Wpf公式サンプル日本語説明　https://qiita.com/yuchan01/items/7b43a4cef5a91cf7a476<br />
 <br />
 <br />
 <br />
