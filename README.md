@@ -103,6 +103,7 @@ ASP.NET Web API 2で作成したEntityFrameworkで使用するPoco Modelは、WP
 ・ログインパスワード暗号化とSSL化(HTTPS利用)しておきたい。Expressでは開発用サーバーにSSL使えない？<br />
 ・ログイン要求で入手したMemberName、AuthorityIDの格納場所は、MainWindowViewModelのstaticプロパティで良いのか？<br />
 ・httpサーバーのアドレスを、MainWindowViewModelのコンストラクタ内にベタ書きしてるので設定ファイルに移したほうが良いかな。<br />
+・ASP.NET Web APIにasyncを使っている理由はよくわかってないです。(Microsoft公式ドキュメントのサンプルが使っているから)<br />
 ・他にも何か改善点があるかもしれません。<br />
 <br />
 <br />
