@@ -107,5 +107,6 @@ ASP.NET Web API 2で作成したEntityFrameworkで使用するPoco Modelは、WP
 ・他にも何か改善点があるかもしれません。<br />
 <br />
 <br />
-.IISに乗せて動作しない時は以下の記事も参考にしてください。
-IIS7.5にASP.NET Web API 2を載せる方法と、HTTP Put, Deleteで失敗するの回避策   https://qiita.com/yuchan01/items/32dfc83d8b7eab6c5dae
+※IISに乗せて動作しない時は以下の記事も参考にしてください。<br />
+IIS7.5にASP.NET Web API 2を載せる方法と、HTTP Put, Deleteで失敗するの回避策<br />
+https://qiita.com/yuchan01/items/32dfc83d8b7eab6c5dae<br />
