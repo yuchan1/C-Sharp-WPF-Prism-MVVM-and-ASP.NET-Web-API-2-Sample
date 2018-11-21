@@ -105,6 +105,11 @@ ASP.NET Web API 2で作成したEntityFrameworkで使用するPoco Modelは、WP
 ・httpサーバーのアドレスを、MainWindowViewModelのコンストラクタ内にベタ書きしてるので設定ファイルに移したほうが良いかな。<br />
 ・ASP.NET Web APIにasyncを使っている理由はよくわかってないです。(Microsoft公式ドキュメントのサンプルが使っているから)<br />
 ・他にも何か改善点があるかもしれません。<br />
+・テーブルの命名規則の修正が必要<br />
+Flag → IsDeleting、Create → CreatedAt (追加必要)、Update → UpdatedAt<br />
+・AddDbContextの編集<br />
+作成日時の更新処理の追加が必要<br />
+decimalの変更、小数点第3以下も使えるようにする→独自Attribute
 <br />
 <br />
 ※IISに乗せて動作しない時は以下の記事も参考にしてください。<br />
