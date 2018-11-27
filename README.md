@@ -107,10 +107,8 @@ ASP.NET Web API 2で作成したEntityFrameworkで使用するPoco Modelは、WP
 ・他にも何か改善点があるかもしれません。<br />
 ・テーブルの命名規則の修正が必要<br />
 Flag → IsDeleting、Create → CreatedAt (追加必要)、Update → UpdatedAt<br />
-・AddDbContextの編集<br />
-作成日時の更新処理の追加が必要<br />
-AddDbContext.csで、decimalの小数点第3以下も使えるようにする<br />
-<br />
+・AddDbContext.csで、作成日時の更新処理の追加が必要<br />
+・AddDbContext.csで、decimalの小数点第3以下も使えるようにする<br />
 protected override void OnModelCreating(DbModelBuilder modelBuilder) {<br />
     modelBuilder.Conventions.Remove<DecimalPropertyConvention>();<br />
     modelBuilder.Conventions.Add(new DecimalPropertyConvention(18, 4));<br />
