@@ -1,5 +1,5 @@
 2020-04-26追記<br />
-個人的な見解ですが、ASP.NET MVCと比較して、WPFアプリは汎用性がない、セキュリティ対策も弱いため、現在、下記の方法は使用していません。参考のため残しています。<br />
+個人的な見解ですが、ASP.NET MVCと比較して、WPFアプリは汎用性がない、セキュリティ対策も弱い、下記の作り方もよくないため、現在、下記の方法は使用していません。参考のため残しています。<br />
 <br />
 <br />
 ## C# WPF Application(Prism, MVVM pattern) + ASP.NET Web API 2, Sample project.
